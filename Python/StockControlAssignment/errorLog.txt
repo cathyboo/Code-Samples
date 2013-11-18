@@ -1,0 +1,35 @@
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid client name.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid genre selected.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid client name.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid genre selected.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.deleteStock() - stock item does not exist in database.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid client name.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid genre selected.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid client name.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid genre selected.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - stock item already exists.
+03 August 2013, 12:39:26: Error in CDItem.getDateReleased() - input date was not in the correct format.
+03 August 2013, 12:39:26: Error in CDItem.getDateReleased() - input date was not in the correct format.
+03 August 2013, 12:39:26: Error in StockRepositiory.moveStock() - warehouseNumber is out of range.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid client name.
+03 August 2013, 12:39:26: Error in StockRepositiory.moveStock() - warehouseNumber is out of range.
+03 August 2013, 12:39:26: Error in StockRepository.enterStock() - invalid genre selected.
+03 August 2013, 12:39:26: Error in StockRepositiory.moveStock() - warehouseNumber is out of range.

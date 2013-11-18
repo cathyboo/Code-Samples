@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Catherine Boothman Home</title>
+  <meta charset="utf-8">
+  <link href="cathyboo.css" rel="stylesheet" media="screen">
+  <link href="logo04.ico" rel="icon" type="image/x-icon">
+
+<!-- to use any jQuery property need to include this link to jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- using jQuery Galleria plugin to create a slideshow documentation, download and instructions 
+     taken from http://galleria.io/  -->
+  <script src="galleria/galleria-1.2.9.min.js"></script>
+
+<!-- The following javascript sections are to detect the window size the page is displayed in.
+     This was used first to detect the window size of mobile devices but it does not work
+     as expected, mobile windows always seem to go to the main site and never the mobile site.
+     Script to detect a mobile device was included on the index.html page and it was detecting
+     a mobile device no problem but when the mobile home page loaded it was being redirected to
+     the main site.
+
+     To get it work these sections were taken out but they are back in again so the mobile site 
+     can be checked with a pc by resizing the browser window -->
+     
+
+<!-- javascript to detect screen width and decide to leave this page and go to
+     mobile optimised site instead -->
+  <script>
+    setTimeout(checkScreenWidth(), 300);
+
+    function checkScreenWidth() {
+      var ww = $(window).width();      
+      if (ww < 800){
+        location = "m.home.html"
+      }
+    }
+  </script>
+
+<!-- javascript to detect screen width and decide to leave this page and go to
+     mobile optimised site instead after the screen has been resized -->
+  <script>
+    $(function(){
+      $(window).resize(function(){
+        checkScreenWidth();
+      });
+    });    
+  </script>
+
+<!-- missing head tag -->
+</head>
+<!-- Home Page -->
+
+<body>
+<div id="wrapper">
+
+<div id="header">
+  <h1>Catherine Boothman</h1>
+</div> <!-- end of header div -->
+
+<!-- navigation section -->
+<div id="nav">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="experiance.html">Experience</a></li>
+    <li><a href="interests.html">Interests</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div> <!-- end of nav div -->
+  
+<div id="contentWrapper">
+<div id="content">
+  <h2>Home</h2>
+
+<!-- jQuery slideshow goes in here -->
+<!-- list of imagaes used -->
+<div id="galleria">  
+  <img src="wedding01.JPG" alt="Cat & Paul Wedding 2008">
+  <img src="AdamGAA01.jpg" alt="Adam playing in Croke Park">
+  <img src="CatGrad.jpg"  alt="My Graduation from Trinity">
+  <img src="AdamLexi02.JPG" alt="Adam & Lexi climbing the Sugar Loaf">
+  <img src="AdamLexi03.JPG" alt="Adam & Lexi Mexican Standoff">
+  <img src="allkids.JPG" alt="All Kids in St. Anne's Park">
+  <img src="Adam01.jpg" alt="Adam's Confimation">
+  <img src="AdamLexi.jpg" alt="Adam & Lexi in a rare moment of relaxation">
+</div> <!-- end of galleria div -->
+
+<!-- need galleria folder saved in current directory -->
+<script>
+  <!-- Galleria requires a theme to function, get the classic theme for free with galeria download -->
+  Galleria.loadTheme("galleria/themes/classic/galleria.classic.min.js");
+  <!-- need to activate Galleria -->
+  Galleria.run("#galleria");
+</script>
+
+<p>
+Welcome to my website!  I am currently a student of the Dublin Institute of Technology, School of Computing, located in the Kevin Street campus and am undertaking a HDip in Computing.  In the past I have studied physics, a BSc in Applied Physics from Dublin City University and a PhD with the Magnetism and Spintronics group in the Trinity School of Physics.
+</p>
+
+<p>
+I am married to Paul Sheridan, who I met while studying in DCU.  We have one twelve year old son who is in his final year of primary school.  He made his confirmation in April and there is a short video of the day.  
+</p>
+
+<!-- Video tag is a html 5 tag so will not work in older browsers -->
+<!-- the video tag allows multiple video formats as different browsers support different formats -->
+<video controls>
+  <source src="AdamConfirmation.mp4" type="video/mp4">
+  <source src="AdamConfirmation.ogv" type="video/ogv">
+  <source src="AdamConfirmation.avi" type="video/avi">
+  <source src="AdamConfirmation.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<p>
+I hope you enjoy this website and learn more about me in the process.  If you want to contact me please do so through the contact page of the site.  It would be great to hear from you!
+</p>
+</div> <!-- end of content div -->
+
+<div class="contentSide">
+<a href="http://www.iopireland.org/" target="_blank"><img src="iop_ireland.gif" alt="Institute of Physics in Ireland Logo">
+<img src="iop2.jpg" alt="Magnetism pic"></a>
+</div> <!-- end of contentSide div -->
+
+<div class="contentSide">
+<a href="" target="_blank"><img src="Spintronics.jpg" alt="Spintronics poster"></a>
+</div> <!-- end of contentSide div -->
+</div> <!-- end of contentWrapper div -->
+
+<!-- Footer section of the page -->
+<div id="footer">
+<p>
+DIT Kevin Street: Web and User Interface Design, DT265 2012 | Created by Catherine Boothman &nbsp; &nbsp;
+<a href=#><img src="up-arrow-round-blue.png" alt="Top"></a>
+</p>
+</div> <!-- end of footer div -->
+
+</div> <!-- end of wrapper div -->
+</body>
+
+</html>

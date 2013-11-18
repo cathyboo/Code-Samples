@@ -1,0 +1,58 @@
+UniqueID,Client,Title,Creator,Date,Genre,NumberOfCopies,Price,Warehouse,ItemType,Flag
+100100,CDWow,At War with the Mystics,Flaming Lips,03-04-2006,Rock,7,8.99,3,CD,added
+100101,CDWow,One Kind Favor,B.B. King,26-08-2008,Blues,10,9.99,1,CD,added
+100102,Invalid Client,The Black Album,Metalica,12-08-1991,Metal,5,12.99,2,CD,added
+100103,New Media,Nevermind,Nirvana,24-09-1991,Rock,7,9.99,4,CD,added
+100104,CDWow,Music for the Jilted Generation,The Prodigy,04-July-2015,Invalid Genre,7,8.99,3,CD,added
+100105,Books Unlimited,The Lion the Witch and the Wardrobe,C.S. Lewis,16-10-1950,Fiction,7,7.99,1,Book,added
+100106,New Media,A Short History Of Nearly Everything,Bill Byrson,31-07-2003,Non-Fiction,3,15.99,2,Book,added
+100107,Books Unlimited,The Book Thief,Markus Zusak,14-03-2006,Fiction,8,10.99,7,Book,added
+100108,New Media,Fermat's Last Therom,Simon Singh,22-06-1997,Non-Fiction,9,9.99,4,Book,added
+100109,Books Unlimited,The Curious Incident of the Dog in the Night-time,M. Haddon,15-05-2003,Fiction,6,8.99,3,Book,added
+100110,CDWow,At War with the Mystics,Flaming Lips,03-04-2006,Rock,7,8.99,3,CD,added
+100110,CDWow,At War with the Mystics,Flaming Lips,03-04-2006,Rock,7,8.99,3,CD,deleted
+100111,CDWow,One Kind Favor,B.B. King,26-08-2008,Blues,10,9.99,1,CD,added
+100111,CDWow,One Kind Favor,B.B. King,26-08-2008,Blues,10,9.99,1,CD,deleted
+100112,Invalid Client,The Black Album,Metalica,12-08-1991,Metal,5,12.99,2,CD,added
+100112,Invalid Client,The Black Album,Metalica,12-08-1991,Metal,5,12.99,2,CD,deleted
+100113,New Media,Nevermind,Nirvana,24-09-1991,Rock,7,9.99,4,CD,added
+100113,New Media,Nevermind,Nirvana,24-09-1991,Rock,7,9.99,4,CD,deleted
+100114,CDWow,Music for the Jilted Generation,The Prodigy,04-July-2015,Invalid Genre,7,8.99,3,CD,added
+100114,CDWow,Music for the Jilted Generation,The Prodigy,04-July-2015,Invalid Genre,7,8.99,3,CD,deleted
+100115,Books Unlimited,The Lion the Witch and the Wardrobe,C.S. Lewis,16-10-1950,Fiction,7,7.99,1,Book,added
+100115,Books Unlimited,The Lion the Witch and the Wardrobe,C.S. Lewis,16-10-1950,Fiction,7,7.99,1,Book,deleted
+100116,New Media,A Short History Of Nearly Everything,Bill Byrson,31-07-2003,Non-Fiction,3,15.99,2,Book,added
+100116,New Media,A Short History Of Nearly Everything,Bill Byrson,31-07-2003,Non-Fiction,3,15.99,2,Book,deleted
+100117,Books Unlimited,The Book Thief,Markus Zusak,14-03-2006,Fiction,8,10.99,7,Book,added
+100117,Books Unlimited,The Book Thief,Markus Zusak,14-03-2006,Fiction,8,10.99,7,Book,deleted
+100118,New Media,Fermat's Last Therom,Simon Singh,22-06-1997,Non-Fiction,9,9.99,4,Book,added
+100118,New Media,Fermat's Last Therom,Simon Singh,22-06-1997,Non-Fiction,9,9.99,4,Book,deleted
+100119,Books Unlimited,The Curious Incident of the Dog in the Night-time,M. Haddon,15-05-2003,Fiction,6,8.99,3,Book,added
+100119,Books Unlimited,The Curious Incident of the Dog in the Night-time,M. Haddon,15-05-2003,Fiction,6,8.99,3,Book,deleted
+100120,CDWow,At War with the Mystics,Flaming Lips,03-04-2006,Rock,7,8.99,3,CD,added
+100121,CDWow,One Kind Favor,B.B. King,26-08-2008,Blues,10,9.99,1,CD,added
+100122,Invalid Client,The Black Album,Metalica,12-08-1991,Metal,5,12.99,2,CD,added
+100123,New Media,Nevermind,Nirvana,24-09-1991,Rock,7,9.99,4,CD,added
+100124,CDWow,Music for the Jilted Generation,The Prodigy,04-July-2015,Invalid Genre,7,8.99,3,CD,added
+100125,Books Unlimited,The Lion the Witch and the Wardrobe,C.S. Lewis,16-10-1950,Fiction,7,7.99,1,Book,added
+100126,New Media,A Short History Of Nearly Everything,Bill Byrson,31-07-2003,Non-Fiction,3,15.99,2,Book,added
+100127,Books Unlimited,The Book Thief,Markus Zusak,14-03-2006,Fiction,8,10.99,7,Book,added
+100128,New Media,Fermat's Last Therom,Simon Singh,22-06-1997,Non-Fiction,9,9.99,4,Book,added
+100129,Books Unlimited,The Curious Incident of the Dog in the Night-time,M. Haddon,15-05-2003,Fiction,6,8.99,3,Book,added
+100130,CDWow,At War with the Mystics,Flaming Lips,03-04-2006,Rock,7,8.99,3,CD,added
+100131,CDWow,One Kind Favor,B.B. King,26-08-2008,Blues,10,9.99,1,CD,added
+100131,CDWow,One Kind Favor,B.B. King,26-08-2008,Blues,10,9.99,2,CD,moved
+100132,Invalid Client,The Black Album,Metalica,12-08-1991,Metal,5,12.99,2,CD,added
+100132,Invalid Client,The Black Album,Metalica,12-08-1991,Metal,5,12.99,2,CD,moved
+100133,New Media,Nevermind,Nirvana,24-09-1991,Rock,7,9.99,4,CD,added
+100134,CDWow,Music for the Jilted Generation,The Prodigy,04-July-2015,Invalid Genre,7,8.99,3,CD,added
+100134,CDWow,Music for the Jilted Generation,The Prodigy,04-July-2015,Invalid Genre,7,8.99,1,CD,moved
+100135,Books Unlimited,The Lion the Witch and the Wardrobe,C.S. Lewis,16-10-1950,Fiction,7,7.99,1,Book,added
+100135,Books Unlimited,The Lion the Witch and the Wardrobe,C.S. Lewis,16-10-1950,Fiction,7,7.99,1,Book,moved
+100136,New Media,A Short History Of Nearly Everything,Bill Byrson,31-07-2003,Non-Fiction,3,15.99,2,Book,added
+100136,New Media,A Short History Of Nearly Everything,Bill Byrson,31-07-2003,Non-Fiction,3,15.99,4,Book,moved
+100137,Books Unlimited,The Book Thief,Markus Zusak,14-03-2006,Fiction,8,10.99,7,Book,added
+100137,Books Unlimited,The Book Thief,Markus Zusak,14-03-2006,Fiction,8,10.99,3,Book,moved
+100138,New Media,Fermat's Last Therom,Simon Singh,22-06-1997,Non-Fiction,9,9.99,4,Book,added
+100138,New Media,Fermat's Last Therom,Simon Singh,22-06-1997,Non-Fiction,9,9.99,1,Book,moved
+100139,Books Unlimited,The Curious Incident of the Dog in the Night-time,M. Haddon,15-05-2003,Fiction,6,8.99,3,Book,added

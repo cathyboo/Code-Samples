@@ -1,0 +1,238 @@
+/* Style sheet for assignment 1 */
+
+body {background-image: url("background02c.gif") ;
+      background-size: 100% ;
+      background-attachment: fixed ;
+      font-family: "Verdana", Geneva, sans-serif
+}
+
+
+/* all header formatting done here */
+h1 {text-align: center ;
+}
+h2 {text-align: left ;
+    color: #2A1406;
+}
+h3 {text-align: center ;
+    color: #2A1406;
+}
+h4 {text-align: center ;
+    color: #2A1406;
+}
+h5 {text-align: center ;
+    color: #2A1406;
+}
+h6 {text-align: center ;
+    color: #2A1406;
+}
+
+
+/* wrappers to contain text in pages,
+   used to center, create margins ect */
+#wrapper {width: 80% ;
+	  margin: 0 auto ;
+          min-width: 960px ;
+	  min-height:100%;
+}
+
+#contentWrapper {width: 100% ;
+		 margin: 1% auto ;
+		 min-width: 960px ;
+}
+/* end of wrappers */
+
+
+#header {background-color: #FFF8DC ;
+	 color: #2A1406; 
+         font-size: 150%; 
+         padding: 5px 0% 5px 20%;  /* top, right, bottom, left */
+	 background-image: url(logo02.jpg);
+	 background-repeat: no-repeat;
+}
+
+
+/* navigation bar formatting here */
+#nav {width: 100% ;
+      font-weight: bold;
+      font-size: 120%; 
+}
+
+#nav ul {list-style-type:none;
+	 margin:0;
+	 padding:0;
+	 overflow:hidden;
+}
+
+#nav li {float:left ;
+	 width: 20% ;
+}
+
+#nav a:link,a:visited {display: block ;
+		       width: 100% ;
+		       font-weight: bold ;
+		       color: #FFF8DC ;
+		       background-color: #2A1406 ;
+		       text-align: center ;
+		       padding: 15px  ;
+		       text-decoration: none;
+		       text-transform: uppercase ;
+}
+
+#nav a:hover {color: #2A1406 ;
+	      background-color: #FFF8DC ;
+}
+/* end of navigation formatting */
+
+
+/* content for home, interests and contact pages */
+#content {background-color: #FFF8DC ; 
+	  color: #2A1406 ;
+	  padding: 1px 5% 1px 5% ; /* top, right, bottom, left */
+	  width: 58% ;
+	  float: left ;
+	  text-align: justify ; /* has to be added to local div */
+	  line-height: 150% ;
+}
+
+#content video{width: 75% ;
+	       margin-left: auto ;
+	       margin-right: auto ;
+	       display: block ;
+}
+
+/* content side is used more than once in the home page so it is changed
+   from an id to a class */
+.contentSide {background-color: #FFF8DC ;
+	      color: #2A1406 ;
+	      width: 30% ;
+	      float: right ;
+	      margin-bottom: 10px ;
+}
+
+.contentSide img{display: block ;
+		 margin-left: auto ;
+		 margin-right: auto ;
+		 width: 100% ;
+}
+
+.contentSide iframe{display: block ;
+		    margin-left: auto ;
+		    margin-right: auto ;
+		    width: 95% ;
+		    height: 200px ;
+		    frameborder: 1;
+		    scrolling: no ;
+}
+/* end of content for home page */
+
+
+/* content for education, experiance page */
+#contentEd {background-color: #FFF8DC ; 
+	    color: #2A1406 ;
+	    padding: 1px 5% 1px 5% ; /* top, right, bottom, left */
+	    width: 68% ;
+	    float: left ;
+	    text-align: justify ; /* has to be added to local div */
+}
+
+#contentEd dl {line-height: 150% ;
+}
+
+#contentEd dt {font-weight: bold ;
+}
+
+#contentEd dd {margin-left: 0px;
+}
+
+.contentEdSide {background-color: white ;
+		width: 20% ;
+		float: right ;
+		margin-bottom: 10px ;
+}
+
+.contentEdSideImg {width: 90% ;
+		   padding: 5px 5% 5px 5% ; /* top, right, bottom, left */
+}
+
+.contentEdSideImg img{display: block ;
+		      margin-left: auto ;
+		      margin-right: auto ;
+		      width: 100% ;
+}
+/* end of content for education page */
+
+
+/* Footer */
+#footer {position: relative;
+	 margin-top: -60px; /* negative value of footer height */
+	 height: 60px; /* must be the same height as footer */
+	 width: 100% ;
+	 clear:both;
+}
+
+#footer p {position: absolute;
+	   bottom: -5px;
+	   text-align: center ;
+	   width: 100% ;
+	   background-color: #FFF8DC ;
+	   padding: 10px 0% 10px 0%;  /* top, right, bottom, left */
+	   font-size: 80%; 
+}
+
+#footer p img{width: 20px ;
+	      height: 20px ; 
+}
+/* end of footer */
+
+
+/* jQuery slide show styling */
+/* using galleria theme */
+#galleria {width: 100% ;
+	   height: 300px ;
+	   background: #000 ;
+}
+
+
+/* Form styling for contact page */
+label {width: 20% ;
+       float: left ;
+       text-align: right ;
+       margin-top: 10px ;
+       margin-right: 2% ;
+       display: block ;
+}
+
+input[type=text] {width: 60% ;
+		  margin-top: 10px ;
+		  margin-left: 1% ;
+}
+
+textarea {width: 60% ;
+	  height: 150px ;
+	  margin-top: 10px ;
+	  margin-left: 1% ;
+}
+
+input[type=reset] {margin-left: 33% ;
+		   margin-top: 10px ;
+		   width: 100px ;
+		   margin-bottom: 15px;
+} 
+
+input[type=submit] {margin-left: 3% ;
+		    margin-top: 10px ;
+		    width: 100px ;
+		    margin-bottom: 15px;
+}
+
+/*input, textarea {width: 245px ;}
+
+textarea {height: 150px ;}*/
+		 
+
+
+
+
+
+
+

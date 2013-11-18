@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Catherine Boothman Index</title>
+<meta charset="utf-8">
+<link href="cathyboo.css" rel="stylesheet" media="screen">
+<link href="logo04.ico" rel="icon" type="image/x-icon">
+
+<!-- Javascript to detect mobile device -->
+<!-- will only work if desktop view option is off on the mobile device in question -->
+<script>
+function detectmob() { 
+  if( navigator.userAgent.match(/Android/i)
+    || navigator.userAgent.match(/webOS/i)
+    || navigator.userAgent.match(/iPhone/i)
+    || navigator.userAgent.match(/iPad/i)
+    || navigator.userAgent.match(/iPod/i)
+    || navigator.userAgent.match(/BlackBerry/i)
+    || navigator.userAgent.match(/Windows Phone/i) ){
+       return true;
+  }
+  else {
+       return false;
+  }
+}
+</script>
+
+<!-- Javascript section -->
+<script language="Javascript">
+var numTry = 0;
+var password = prompt("Enter in the password:");
+
+while ((password != "1234") && (numTry < 2)) {
+  <!-- detects number of tries left to get the password correct -->
+  var tryLeft = 2 - numTry;
+  var password = prompt("Password wrong! You have " + tryLeft + " tries left");
+  numTry++;
+}
+
+if (password == "1234") {
+  var dev = detectmob();
+  if (dev == true) {
+    <!-- if the password is correct and a mobile device has been detected go to this page -->
+    location = "m.home.html"
+  }
+  else {
+    <!-- password correct but no mobile device detected go here -->
+    location = "home.html"
+  }
+}
+else {
+  <!-- password incorrect go here -->
+  location = "pwfail.html"
+}
+
+</script> 
+</head>
